@@ -1,4 +1,7 @@
 <keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="Back" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f6" />
@@ -31,14 +34,15 @@
   <action id="ExternalJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="FileChooser.NewFile" />
   <action id="Forward" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Move" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
-  </action>
-  <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
@@ -50,6 +54,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
