@@ -1,0 +1,9 @@
+<templateSet group="Go">
+  <template name="ts" value="type $NAME$ struct {&#10;  $END$&#10;}" description="type struct" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO_FILE" value="true" />
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
