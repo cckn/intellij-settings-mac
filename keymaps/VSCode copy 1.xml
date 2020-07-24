@@ -1,0 +1,21 @@
+<keymap version="1" name="VSCode copy 1" parent="VSCode">
+  <action id="Exit" />
+  <action id="ExternalJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
+  <action id="Graph.ApplyCurrentLayout" />
+  <action id="Move" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+</keymap>
