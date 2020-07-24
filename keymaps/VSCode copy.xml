@@ -44,6 +44,10 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RecentFiles" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
