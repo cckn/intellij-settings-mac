@@ -37,6 +37,9 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
@@ -45,6 +48,10 @@
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="learn.next.lesson" />
 </keymap>
