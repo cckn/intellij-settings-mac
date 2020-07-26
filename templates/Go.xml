@@ -16,4 +16,11 @@
       <option name="GO_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ti" value="type $NAME$ interface {&#10;&#9;$END$&#10;}" shortcut="SPACE" description="type interface" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO_FILE" value="true" />
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
