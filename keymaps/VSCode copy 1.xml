@@ -1,4 +1,10 @@
 <keymap version="1" name="VSCode copy 1" parent="VSCode">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
   <action id="Exit" />
   <action id="ExternalJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
@@ -11,6 +17,10 @@
   <action id="Move" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="RemoteHost.NewRemoteItem">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f6" />
