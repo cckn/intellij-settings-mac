@@ -11,4 +11,9 @@
       <option name="GO_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="fatal" value="log.Fatal($END$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
