@@ -1,5 +1,22 @@
 <templateSet group="Go">
-  <template name="ts" value="type $NAME$ struct {&#10;  $END$&#10;}" description="type struct" toReformat="false" toShortenFQNames="true">
+  <template name="ts" value="type $NAME$ struct {&#10;&#9;$END$&#10;}" shortcut="SPACE" description="type struct" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO_FILE" value="true" />
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="log.Println($END$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fatal" value="log.Fatal($END$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ti" value="type $NAME$ interface {&#10;&#9;$END$&#10;}" shortcut="SPACE" description="type interface" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="GO_FILE" value="true" />
