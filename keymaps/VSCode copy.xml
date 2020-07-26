@@ -41,6 +41,14 @@
   <action id="Forward" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Move" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
@@ -57,6 +65,8 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="ScrollPane-unitScrollDown" />
+  <action id="ScrollPane-unitScrollUp" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
