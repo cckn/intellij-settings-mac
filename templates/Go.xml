@@ -6,12 +6,12 @@
       <option name="GO_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="log" value="log.Println($END$)" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="log.Println($END$)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GO_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="fatal" value="log.Fatal($END$)" toReformat="false" toShortenFQNames="true">
+  <template name="fatal" value="log.Fatal($END$)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GO_STATEMENT" value="true" />
     </context>
