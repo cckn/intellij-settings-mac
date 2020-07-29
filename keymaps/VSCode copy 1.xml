@@ -48,7 +48,7 @@
     <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="SaveAll">
-    <keyboard-shortcut first-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="learn.next.lesson" />
 </keymap>
