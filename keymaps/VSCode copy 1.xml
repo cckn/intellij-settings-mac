@@ -2,13 +2,35 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="Back" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
   <action id="Exit" />
   <action id="ExternalJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="Forward" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
     <keyboard-shortcut first-keystroke="shift meta a" />
@@ -28,4 +50,5 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="learn.next.lesson" />
 </keymap>
