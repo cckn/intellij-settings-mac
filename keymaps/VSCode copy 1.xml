@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Back">
-    <mouse-shortcut keystroke="button5" />
+    <mouse-shortcut keystroke="button4" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="alt period" />
@@ -36,7 +36,7 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="Forward">
-    <mouse-shortcut keystroke="button4" />
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Move" />
@@ -52,6 +52,9 @@
   </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="learn.next.lesson" />
 </keymap>
