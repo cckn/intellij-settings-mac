@@ -1,4 +1,4 @@
-<keymap version="1" name="VSCode copy" parent="VSCode">
+<keymap version="1" name="cckn's VS Code" parent="VSCode">
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
